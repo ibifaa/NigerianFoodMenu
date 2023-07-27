@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: green; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    width: 15%;
+    border: 5px solid rgb(13, 42, 13);
+    margin: 0 auto ;
+    border-radius: 3px;
+}
+
+.top-line{
+    height: 15px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgb(13, 42, 13);
+}
+.card-image{
+    height: 200px;
+    width: 100%;
+    border-radius: 15px 15px  0 0 ;
+}
+
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 5px;
+    color: orange
+
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+.mg-top{
+    margin-top: 40px;
+}
+
+.food-btn{
+    /* background-color: rgb(132, 238, 132); */
+    width: 130px;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(13, 42, 13);;
+    box-shadow: 3px 3px 3px rgb(90, 134, 90);
+    border: 2px solid white;
+    font-weight: 600;
+}
+
+.mg-40{
+    margin-top: 40px;
+}
+
+.card{
+    width: 250px;
+    background-color: rgb(187, 243, 187);
+    border-radius: 15px;
+    margin: 20px;
+   
+
+}
+.mg-bot{
+    margin-bottom: 40px;
+}
+
+.footer-line{
+    background-color: rgb(13, 42, 13);
+    height: 15px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.food-price-section{
+    justify-content: space-between;
+}
+
+.flex{
+    display: flex;
+}
+.menuSection{
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+}
+
+
+.card-image-section{
+    /* width: 50%; */
+}
+
+.card-body{
+    padding: 15px;
+    line-height: 1.6;
+    /* width: 50%; */
+}
+
+.food-price-section{
+    font-size: 1.2rem;
+}
+
+main{
+    justify-content: space-around;
+}
+
+.price{
+    color: red;
+}
+
+@media screen and (max-width:700px) {
+    .container{
+        width:100%
+    }
+}
